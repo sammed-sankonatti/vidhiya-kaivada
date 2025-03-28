@@ -42,7 +42,7 @@ stages:
  
     - task: PublishBuildArtifacts@1
       inputs:
-        PathtoPublish: '$(System.DefaultWorkingDirectory)/next'
+        PathtoPublish: '$(System.DefaultWorkingDirectory)/next-build'
         ArtifactName: 'drop'
         publishLocation: 'Container'
  
